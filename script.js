@@ -18,7 +18,7 @@ function BMI() {
         }
         else if(bmio>=18.5 && bmio<25)
         {
-            return "You weight is Normal"
+            return "You weight is Normal weight"
         }
         else if(bmio>=25 && bmio<30)
         {
@@ -26,7 +26,7 @@ function BMI() {
         }
         else
         {
-            return "You are Obese"
+            return "You are Obesity"
         }
     }
 }
